@@ -32,7 +32,7 @@
 -------------------------------------------------------------- */
 .themesflat-button { display: inline-block; font-size: 14px;  font-weight: 600; color: #fff; background-color: transparent; padding: 14px 40px;  font-family: 'Montserrat', sans-serif; letter-spacing: 0.5px;  position: relative; z-index: 1; overflow: hidden; }
 .themesflat-button.font-default { font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 400; padding: 13px 25px; letter-spacing: 0px; }
-.themesflat-button.bg-accent { background-color: #ffc30c; }
+.themesflat-button.bg-accent { background-color: #e02b20; }
 .themesflat-button.bg-white { background-color: #fff; color: #ffc30c; }
 .themesflat-button.bg-light-white { background-color: #f2f2f2; color: #555; }
 .themesflat-button.bg-white.color-333 { background-color: #fff; color: #333; }
@@ -50,7 +50,7 @@
 
 .themesflat-button.bg-light-white:hover,
 .themesflat-button.bg-white:hover,
-.themesflat-button.bg-accent:hover { color: #fff; }
+.themesflat-button.bg-accent:hover { color: #222; }
 
 /* Button custom */
 .button-wrap.has-icon .themesflat-button > span { position: relative; display: block; }
@@ -194,8 +194,8 @@
 .half-background { background-size: cover; background-repeat: no-repeat; background-position: center center; overflow: hidden; }
 
 /* Style */
-.half-background.style-1 { background-image: url('../img/gallery/gallery-1-960x560.jpg'); }
-.half-background.style-2 { background-image: url('../img/bg-services-1-420x330.jpg'); }
+.half-background.style-1 { background-image: url('../img/gallery/gallery-1.jpg'); }
+.half-background.style-2 { background-image: url('../img/gallery/gallery-1.jpg'); }
 
 @media only screen and (max-width: 991px) {
 	.half-background.style-2 { height: 330px; }
